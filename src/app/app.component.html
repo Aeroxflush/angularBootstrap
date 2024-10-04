@@ -24,7 +24,7 @@
           Kirim WhatsApp
         </i>
       </button>
-      
+
       <button class="btn btn-success m-1">
         <i class="fa fa-plus">
           Record Baru
@@ -67,5 +67,61 @@
       </select>
     </div>
 
+    <div class="container py-4">
+      <div class="dropdown-menu d-block position-static pt-0 mx-0 rounded-3 shadow overflow-hidden w-280px" data-bs-theme="light">
+        <form class="p-2 mb-2 bg-body-tertiary border-bottom">
+          <input type="search" class="form-control" autocomplete="false" placeholder="Type to filter...">
+        </form>
+        <ul class="list-unstyled mb-0">
+          <li><a class="dropdown-item d-flex align-items-center gap-2 py-2" href="#">
+            <span class="d-inline-block bg-success rounded-circle p-1"></span>
+            Action
+          </a></li>
+          <li><a class="dropdown-item d-flex align-items-center gap-2 py-2" href="#">
+            <span class="d-inline-block bg-primary rounded-circle p-1"></span>
+            Another action
+          </a></li>
+          <li><a class="dropdown-item d-flex align-items-center gap-2 py-2" href="#">
+            <span class="d-inline-block bg-danger rounded-circle p-1"></span>
+            Something else here
+          </a></li>
+          <li><a class="dropdown-item d-flex align-items-center gap-2 py-2" href="#">
+            <span class="d-inline-block bg-info rounded-circle p-1"></span>
+            Separated link
+          </a></li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="modal modal-sheet position-static d-block p-2 py-md-3" tabindex="-1" role="dialog" id="modalSheet">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content rounded-4 shadow">
+          <div class="modal-header border-bottom-0">
+            <h1 class="modal-title fs-5">Modal title</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body py-0">
+            <p>This is a modal sheet, a variation of the modal that docs itself to the bottom of the viewport like the newer share sheets in iOS.</p>
+          </div>
+          <div class="modal-footer flex-column align-items-stretch w-100 gap-2 pb-3 border-top-0">
+            <button type="button" class="btn btn-lg btn-primary">Save changes</button>
+            <button type="button" class="btn btn-lg btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <footer class="py-1 my-3">
+        <ul class="nav justify-content-center border-bottom pb-2 mb-2">
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+        </ul>
+        <p class="text-center text-body-secondary">© 2024 STMIK Pontianak</p>
+      </footer>
+    </div>
   </div>
 </div>
